@@ -1,0 +1,10 @@
+body {
+  background: red;
+}
+
+/* Use breakpoints */
+@media (min-width: 500px) {
+  h1 {
+    font-size: 300px;
+  }
+}
