@@ -54,6 +54,10 @@ a {
   color: #fff;
 }
 
+header a {
+  text-decoration: none;
+}
+
 main * {
   max-width: 95vw;
 }
@@ -62,7 +66,7 @@ p {
   margin: 2vh auto;
 }
 
-.projects {
+#projects {
   margin: 0 auto;
 }
 
@@ -81,7 +85,7 @@ h2 {
 /* Breakpoints from Responsive Design lesson*/
 /* Smallest devices (portrait phones, 575px and below*/
 @media screen and (max-width: 575px){
-  .projects {
+  #projects {
     display: grid;
     grid-template-areas: 
     "a"
@@ -138,7 +142,7 @@ h2 {
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
-  .projects {
+  #projects {
     display: grid;
     grid-template-areas: 
     "a"
@@ -191,7 +195,7 @@ h2 {
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-  .projects {
+  #projects {
     display: grid;
     grid-template-areas: 
     "a"
@@ -243,7 +247,7 @@ h2 {
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-  .projects {
+  #projects {
     display: grid;
     grid-template-areas: 
     "a b"
@@ -294,7 +298,7 @@ h2 {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-  .projects {
+  #projects {
     display: grid;
     grid-template-areas: 
     "a b"
