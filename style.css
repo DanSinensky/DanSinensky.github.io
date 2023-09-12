@@ -28,8 +28,6 @@ img {
   margin: 0 auto;
   box-sizing: border-box;
   border: 1px solid #000;
-  object-fit: cover;
-  object-position: center;
 }
 
 header {
