@@ -181,6 +181,7 @@ h2 {
 
   .project-title {
     grid-area: e;
+    color: #000;
   }
 
   .project-image {
