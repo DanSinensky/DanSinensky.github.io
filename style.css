@@ -128,6 +128,7 @@ h2 {
 
   .project-image {
     grid-area: g;
+    margin: 0 auto;
   }
 
   .project-description {
@@ -182,10 +183,12 @@ h2 {
   .project-title {
     grid-area: e;
     color: #000;
+    text-decoration: none;
   }
 
   .project-image {
     grid-area: g;
+    margin: 0 auto;
   }
 
   .project-description {
@@ -238,6 +241,7 @@ h2 {
 
   .project-image {
     grid-area: g;
+    margin: 0 auto;
   }
 
   .project-description {
@@ -289,6 +293,7 @@ h2 {
 
   .project-image {
     grid-area: g;
+    margin: 0 auto;
   }
 
   .project-description {
@@ -339,6 +344,7 @@ h2 {
 
   .project-image {
     grid-area: g;
+    margin: 0 auto;
   }
 
   .project-description {
