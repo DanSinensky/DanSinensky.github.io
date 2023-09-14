@@ -29,6 +29,7 @@ img {
   box-sizing: border-box;
   border: 1px solid #000;
   object-fit: cover;
+  object-position: center;
 }
 
 header {
@@ -51,6 +52,14 @@ footer {
 
 header a {
   text-decoration: none;
+  color: #fff;
+}
+
+main a {
+  color: #000;
+}
+
+footer a {
   color: #fff;
 }
 
@@ -81,18 +90,6 @@ h2 {
 /* Breakpoints from Responsive Design lesson*/
 /* Smallest devices (portrait phones, 575px and below*/
 @media screen and (max-width: 575px){
-  footer {
-    height: 10vh;
-  }
-
-  main {
-    height: 80vh;
-  }
-
-  header {
-    height: 10vh
-  }
-  
   #projects {
     display: grid;
     grid-template-areas: 
@@ -160,18 +157,6 @@ h2 {
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
-  footer {
-    height: 10vh;
-  }
-
-  main {
-    height: 80vh;
-  }
-
-  header {
-    height: 10vh
-  }
-
   #projects {
     display: grid;
     grid-template-areas: 
