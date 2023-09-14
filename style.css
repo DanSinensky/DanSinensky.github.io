@@ -49,12 +49,9 @@ footer {
   text-align: center;
 }
 
-a {
-  color: #fff;
-}
-
 header a {
   text-decoration: none;
+  color: #fff;
 }
 
 main * {
