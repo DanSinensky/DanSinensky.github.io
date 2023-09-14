@@ -81,6 +81,18 @@ h2 {
 /* Breakpoints from Responsive Design lesson*/
 /* Smallest devices (portrait phones, 575px and below*/
 @media screen and (max-width: 575px){
+  footer {
+    height: 10vh;
+  }
+
+  main {
+    height: 80vh;
+  }
+
+  header {
+    height: 10vh
+  }
+  
   #projects {
     display: grid;
     grid-template-areas: 
@@ -148,6 +160,18 @@ h2 {
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
+  footer {
+    height: 10vh;
+  }
+
+  main {
+    height: 80vh;
+  }
+
+  header {
+    height: 10vh
+  }
+
   #projects {
     display: grid;
     grid-template-areas: 
