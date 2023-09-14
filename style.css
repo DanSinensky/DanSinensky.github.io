@@ -119,6 +119,7 @@ h2 {
     grid-template-areas:
     "e"
     "g"
+    "h"
     "f";
   }
 
@@ -131,6 +132,12 @@ h2 {
   .project-image {
     grid-area: g;
     margin: 0 auto;
+  }
+
+  .project-github {
+    grid-area: h;
+    color: #000;
+    text-decoration: none;
   }
 
   .project-description {
@@ -179,16 +186,25 @@ h2 {
     grid-template-areas:
     "e"
     "g"
+    "h"
     "f";
   }
 
   .project-title {
     grid-area: e;
+    color: #000;
+    text-decoration: none;
   }
 
   .project-image {
     grid-area: g;
     margin: 0 auto;
+  }
+
+  .project-github {
+    grid-area: h;
+    color: #000;
+    text-decoration: none;
   }
 
   .project-description {
@@ -232,16 +248,25 @@ h2 {
     display: grid;
     grid-template-areas:
     "e g"
+    "h g"
     "f g";
   }
 
   .project-title {
     grid-area: e;
+    color: #000;
+    text-decoration: none;
   }
 
   .project-image {
     grid-area: g;
     margin: 0 auto;
+  }
+
+  .project-github {
+    grid-area: h;
+    color: #000;
+    text-decoration: none;
   }
 
   .project-description {
@@ -284,16 +309,25 @@ h2 {
     grid-template-areas:
     "e"
     "g"
+    "h"
     "f";
   }
 
   .project-title {
     grid-area: e;
+    color: #000;
+    text-decoration: none;
   }
 
   .project-image {
     grid-area: g;
     margin: 0 auto;
+  }
+
+  .project-github {
+    grid-area: h;
+    color: #000;
+    text-decoration: none;
   }
 
   .project-description {
@@ -335,16 +369,25 @@ h2 {
     display: grid;
     grid-template-areas:
     "e g"
+    "h g"
     "f g";
   }
 
   .project-title {
     grid-area: e;
+    color: #000;
+    text-decoration: none;
   }
 
   .project-image {
     grid-area: g;
     margin: 0 auto;
+  }
+
+  .project-github {
+    grid-area: h;
+    color: #000;
+    text-decoration: none;
   }
 
   .project-description {
