@@ -124,6 +124,8 @@ h2 {
 
   .project-title {
     grid-area: e;
+    color: #000;
+    text-decoration: none;
   }
 
   .project-image {
@@ -182,8 +184,6 @@ h2 {
 
   .project-title {
     grid-area: e;
-    color: #000;
-    text-decoration: none;
   }
 
   .project-image {
