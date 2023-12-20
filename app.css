@@ -1,5 +1,5 @@
 body {
-    background: #d5d6f5;
+    background: #f5e4d5;
     font-family: "Nunito", sans-serif;
 }
 
@@ -10,7 +10,7 @@ body {
 }
 
 .blurb p {
-    color: #d5d6f5;
+    color: #f5e4d5;
     font-weight: 100;
     font-size: 1.125rem;
     line-height: 2;
@@ -43,22 +43,22 @@ body {
     font-size: 1.5rem;
 }
 
-#headingGroup span {
+#about span {
     color: #EA1C2C;
 }
 
-#headingGroup h1 {
+#about h1 {
     font-weight: 100;
     font-size: 4rem;
 }
 
 .navbar.scrolled {
-    background: #d5d6f5;
+    background: #f5e4d5;
     transition: background 500ms;
 }
 
 @media (max-width: 1200px) {
-    #headingGroup h1 {
+    #about h1 {
         font-weight: 100;
         font-size: 3rem;
     }
