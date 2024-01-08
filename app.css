@@ -1,5 +1,5 @@
 body {
-    background: #f5e4d5;
+    background: #c2dbff;
     font-family: "Nunito", sans-serif;
 }
 
@@ -18,30 +18,31 @@ body {
 }
 
 #mainNavbar .nav-link {
-    color: white;
+    color: black;
     font-size: 1.5rem;
 }
 
 #mainNavbar .nav-link:hover {
-    color: #EA1C2C;
+    color: #0e6efd;
 }
 
 #mainNavbar .navbar-brand {
-    color: #EA1C2C;
+    color: #0e6efd;
     font-size: 1.5rem;
 }
 
 .navbar.scrolled {
-    background: #f5e4d5;
+    background: #c2dbff;
     transition: background 500ms;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #0e6efd;
 }
 
 @media (max-width: 576px) {
     #mainNavbar .nav-link {
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
 }
-
-
-
-
